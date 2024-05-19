@@ -104,6 +104,9 @@ public final class Configuration {
     @Setting(key: "skip_build", defaultValue: false)
     public var skipBuild: Bool
 
+    @Setting(key: "skip_schemes_validation", defaultValue: false)
+    public var skipSchemesValidation: Bool
+
     @Setting(key: "clean_build", defaultValue: false)
     public var cleanBuild: Bool
 
